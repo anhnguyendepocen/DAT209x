@@ -17,7 +17,15 @@ checkEm <- function(lines) {
         consNeg <- consNeg + 1
       }
     } else {
+<<<<<<< HEAD
       cat(paste("The mean of row number", i, "is", mean(lines[i,]), "\n"))
+=======
+<<<<<<< HEAD
+      cat(paste("The mean of row number", i, "is", mean(lines[i,]), "\n"))
+=======
+      cat(paste("The mean of row number", i, "is", mean(line), "\n"))
+>>>>>>> d0e671c3a91525003bcd7a567512c1ed2453abec
+>>>>>>> 2a1ec2771a6d8c178c7c209b960ad3bd37e3231e
     }
   }
 }
