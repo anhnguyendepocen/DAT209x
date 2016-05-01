@@ -1,0 +1,10 @@
+connStr <- paste(
+  "Server=msedxeus.database.windows.net",
+  "Database=DAT209x01",
+  "uid=Rlogin",
+  "pwd=P@ssw0rd",
+  "Driver=FreeTDS",
+  "TDS_Version=8.0",
+  "Port=1433",
+  sep=";"
+)
